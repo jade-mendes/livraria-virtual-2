@@ -1,0 +1,91 @@
+/* Propriedades comuns */
+.defaultCard, .expandedCard {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+
+.bookInfo_price {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 0%;
+}
+
+/* Card padrão */
+
+.defaultCard {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.defaultCard > .bookCover {
+    box-shadow: var(--box-shadow);
+    height: 20vh;
+    width: auto;
+    border-radius: var(--border-radius);
+}
+
+.defaultCard .bookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.defaultCard .bookInfo_text > h4 {
+    color: var(--title-color);
+    margin: 0%;
+    font-size: 0.8rem;
+}
+
+.defaultCard .bookInfo_text > h5 {
+    color: var(--text-color);
+    font-size: 0.6rem;
+    margin: 0%;
+}
+
+/* Card extendido */
+
+.expandedCard {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+.expandedCard > .bookCover {
+    box-shadow: var(--box-shadow);
+    height: 80%;
+    border-radius: var(--border-radius);
+    object-fit: cover;
+}
+
+.expandedCard .bookInfo {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    align-items: flex-end;
+}
+
+.expandedCard .bookInfo_text > h4 {
+    color: var(--title-color);
+    margin: 0%;
+    font-size: 1.1rem;
+}
+
+.expandedCard .bookInfo_text > h5 {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.expandedCard .bookInfo_price {
+    font-size: 1.3rem;
+}

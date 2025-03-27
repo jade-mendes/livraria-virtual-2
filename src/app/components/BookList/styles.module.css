@@ -1,0 +1,12 @@
+.row {
+    list-style-type: none;
+}
+
+.bookList {
+    margin: var(--margins);
+}
+
+.bookList > ul {
+    margin: 0%;
+    padding: 0%;
+}

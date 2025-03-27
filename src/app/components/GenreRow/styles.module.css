@@ -1,0 +1,45 @@
+.rowContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5vh;
+}
+
+.rowHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.rowHeader > h3 {
+    color: var(--title-color);
+}
+
+.rowHeader > a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.rowHeader > a:visited {
+    color: var(--accent-color);
+}
+
+.booksRow {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2vh;
+    justify-content: space-between;
+    column-gap: 0.8vw;
+    padding-left: 0px;
+}
+
+.booksRow li {
+    list-style-type: none;
+}
+
+.booksRow li a {
+    text-decoration: none;
+}

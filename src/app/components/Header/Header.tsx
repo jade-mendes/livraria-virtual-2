@@ -2,6 +2,7 @@ import styles from './styles.module.css'
 import logo from "../../../../public/assets/logo.svg"
 import Link from 'next/link'
 import Image from 'next/image'
+import NavBar from '../NavBar'
 
 export default function Header(){
     return(
@@ -13,6 +14,7 @@ export default function Header(){
                     width={50}
                     height={50}/>
             </Link>
+            <NavBar/>
         </header>
     )
 }
