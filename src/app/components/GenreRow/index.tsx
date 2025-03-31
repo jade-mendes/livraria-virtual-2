@@ -31,7 +31,7 @@ export default async function GenreRow({rowName} : rowProps){
         <div className={styles.rowContainer}>
             <div className={styles.rowHeader}>
                 <h3>{rowName}</h3>
-                <Link href={`/genre/${rowName}`}>Ver mais</Link>
+                <Link href={`/genres/${rowName}`}>Ver mais</Link>
             </div>
             <ul className={styles.booksRow}>
                 {books.map((book : BookCardType) => (

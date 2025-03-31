@@ -7,7 +7,7 @@ import NavBar from '../NavBar'
 export default function Header(){
     return(
         <header className={styles.header}>
-            <Link href="/">
+            <Link href="/home">
                 <Image 
                     src={logo}
                     alt="Logo da livraria"
