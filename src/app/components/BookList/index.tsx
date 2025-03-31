@@ -2,6 +2,7 @@
 import axios from 'axios'
 import GenreRow from "../GenreRow";
 import styles from './styles.module.css'
+import '../../globals.css'
 
 interface Book {
     id: string;
