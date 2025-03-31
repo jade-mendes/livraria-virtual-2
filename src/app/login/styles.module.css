@@ -1,0 +1,103 @@
+.loginContainer {
+    margin: 0%;
+    display: flex;
+    height: 100vh;
+}
+
+#loginImage {
+    background-color: var(--banner-background);
+    display: none;
+    width: 50%;
+}
+
+#loginImage > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+
+.loginPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    width: 50vw;
+}
+
+.loginPanel  h4 {
+    color: var(--text-color);
+    margin-top: 10vh;
+}
+
+.loginPanel  h2 {
+    margin-bottom: 5vh;
+}
+
+.loginPanel > img {
+    align-self: center;
+}
+
+.textAndFormGroup {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 10px;
+}
+
+.inputGroup > label {
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.inputGroup > input {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 3%;
+    min-width: 195px;
+}
+
+.buttonsGroup {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    margin-top: 10vh;
+}
+
+.loginButton, .registerButton {
+    padding: 3% 5%;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    min-width: 195px;
+    cursor: pointer;
+}
+
+.loginButton {
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+.registerButton {
+    border: 2px solid var(--primary-color);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+@media (min-width: 1024px) {
+    #loginImage {
+        display: block;
+    }
+}

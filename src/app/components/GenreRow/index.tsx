@@ -1,6 +1,6 @@
 'use server'
 import axios from 'axios'
-import BookCard from '../BookCard/BookCard'
+import BookCard from '../BookCard'
 import styles from './styles.module.css'
 import { BookCardType } from '../../types/BookCardType'
 import Link from 'next/link'

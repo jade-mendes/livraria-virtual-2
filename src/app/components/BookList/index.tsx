@@ -1,6 +1,6 @@
 'use server'
 import axios from 'axios'
-import GenreRow from "../GenreRow/GenreRow";
+import GenreRow from "../GenreRow";
 import styles from './styles.module.css'
 
 interface Book {

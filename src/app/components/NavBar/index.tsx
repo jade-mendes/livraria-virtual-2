@@ -1,5 +1,5 @@
 import { User, ShoppingCart } from "@deemlol/next-icons";
-import HeaderButton from "../HeaderButton/HeaderButton";
+import HeaderButton from "../HeaderButton";
 import Link from "next/link";
 import styles from './styles.module.css'
 

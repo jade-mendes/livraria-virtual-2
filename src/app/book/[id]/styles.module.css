@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw 8vh 5vw;
+    column-gap: 3vw;
+}
+
+#titleAndAuthor {
+    margin-bottom: 5vh;
+    margin: 0%;
+}
+
+.bookInfo_text  h3 {
+    color: var(--text-color);
+}
+
+.bookInfo_text  p {
+    color: var(--text-color);
+}
+
+.bookInfo_cover {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    padding: 3%;
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.bookInfo_cover > img {
+    box-shadow: var(--box-shadow);
+    
+}
+
+.accentButton {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    border: none;
+    padding: 1%;
+    border-radius: var(--border-radius);
+    align-self: flex-end;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+.accentButton span{
+    margin-right: 30px;
+}
+
+.accentButton:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}

@@ -7,11 +7,11 @@
     margin-top: 5vh;
 }
 
-a {
+.button a {
     text-decoration: none;
     width: fit-content;
 }
 
-a:visited {
+.button a:visited {
     color: var(--title-color);
 }
