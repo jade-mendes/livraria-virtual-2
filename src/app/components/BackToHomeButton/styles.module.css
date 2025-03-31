@@ -5,13 +5,14 @@
     margin-left: 5vw;
     margin-bottom: 5vh;
     margin-top: 5vh;
+    box-sizing: border-box;
 }
 
-.button a {
-    text-decoration: none;
+.button {
     width: fit-content;
+    text-decoration: none;
 }
 
-.button a:visited {
+.buttonContainer {
     color: var(--title-color);
 }

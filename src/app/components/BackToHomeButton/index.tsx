@@ -1,5 +1,6 @@
 import { ChevronLeft } from "@deemlol/next-icons";
 import styles from './styles.module.css'
+import '../../globals.css'
 import Link from "next/link";
 
 interface ButtonProps {

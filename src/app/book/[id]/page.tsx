@@ -2,6 +2,7 @@
 
 import axios from "axios"
 import styles from './styles.module.css'
+import '../../globals.css'
 import { BookType } from "../../types/BookType"
 import { formatPrice } from "../../utils/formatPrice";
 import BackToHomeButton from "../../components/BackToHomeButton";
